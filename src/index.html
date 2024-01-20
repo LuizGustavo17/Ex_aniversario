@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Aniversário</title>
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text"> O melhor aniversário começa em <span id="contador"></span></p>
+        </div>
+        <div class="infos-bar">
+            <ul class="infos-bar__infos">
+                <li class="infos-bar__infos__item">
+                    <b>Localização</b><br>
+                   Rua da Neve - Rio das Ostras - Rio de Janeiro
+                </li>
+                <li class="infos-bar__infos__item">
+                    <b>Reservas Disponíveis</b><br>
+                  60 vagas
+                </li>
+                <li class="infos-bar__infos__item">
+                    <b>Quando</b><br>
+                  02 de novembro de 2024 às 17:00hrs
+                </li>
+            </ul>
+            <a href="#" class="button button--primary"> Quero ir!</a>
+        </div>
+    </header>
+    <section class="event event--bolo">
+        <div class="container">
+            <div class="event__details">
+                    <h2 class="event__details__title">Bolo</h2>
+                    <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi deleniti vitae voluptate et fugit doloribus eligendi, nam corrupti reiciendis quas cupiditate veritatis omnis optio excepturi? Doloribus illo accusamus dicta in?</p>
+            </div>
+            <img class="event__image" src="./images/bolo.jpg" alt="bolo">
+        </div>
+    </section>
+    <section class="event event--presentes event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                    <h2 class="event__details__title">Presentes</h2>
+                    <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi deleniti vitae voluptate et fugit doloribus eligendi, nam corrupti reiciendis quas cupiditate veritatis omnis optio excepturi? Doloribus illo accusamus dicta in?</p>
+            </div>
+            <img class="event__image" src="./images/presente.jpg" alt="presente">
+        </div>
+    </section>
+    <section class="event event--local">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                    <h2 class="event__details__title">Local</h2>
+                    <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi deleniti vitae voluptate et fugit doloribus eligendi, nam corrupti reiciendis quas cupiditate veritatis omnis optio excepturi? Doloribus illo accusamus dicta in?</p>
+            </div>
+            <img class="event__image" src="./images/predio.jpg" alt="predio">
+        </div>
+    </section>
+    <section class="event event--musica event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                    <h2 class="event__details__title">Musica</h2>
+                    <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi deleniti vitae voluptate et fugit doloribus eligendi, nam corrupti reiciendis quas cupiditate veritatis omnis optio excepturi? Doloribus illo accusamus dicta in?</p>
+            </div>
+            <img class="event__image" src="./images/musica.jpg" alt="musica">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
