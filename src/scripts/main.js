@@ -1,5 +1,5 @@
 AOS.init();
-const dataDoEvento=new Date("Nov 02, 2024 17:00:00");
+const dataDoEvento=new Date("Nov 02, 2025 17:00:00");
 const timeStampDoEvento=dataDoEvento.getTime();
 
 const contaAsHoras = setInterval(function() {
@@ -15,4 +15,5 @@ const contaAsHoras = setInterval(function() {
         clearInterval(contaAsHoras);
         document.getElementById('contador').innerHTML='Já Começou';
     }
+
 }, 1000);
